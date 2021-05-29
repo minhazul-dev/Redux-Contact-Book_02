@@ -16,9 +16,6 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/add">Add Contact</Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link active" to="/edit">Edit Contact</Link>
-              </li>
               
               <li className="nav-item">
                 <a className="nav-link active" to="/" tabIndex={-1} aria-disabled="true">Home</a>
