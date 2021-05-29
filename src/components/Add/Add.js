@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { connect, useDispatch, useSelector } from 'react-redux';
+import { connect } from 'react-redux';
 import { useHistory } from 'react-router';
 import { toast } from 'react-toastify';
 

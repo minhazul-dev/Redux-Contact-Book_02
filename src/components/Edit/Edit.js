@@ -55,54 +55,6 @@ const Edit = ({ contacts, updateContact }) => {
       toast.success("Contact updated successfully!!");
       history.push("/");
     };
-    // const { id } = useParams();
-    // const history = useHistory()
-    // const currentContact = contacts.find(contact => contact.id === parseInt(id));
-
-    // useEffect(() => {
-    //     setName(currentContact?.name);
-    //     setEmail(currentContact?.email);
-    //     setPhone(currentContact?.phone);
-    // }, [currentContact]);
-
-    // const [name, setName] = useState("");
-    // const [email, setEmail] = useState("");
-    // const [phone, setPhone] = useState("");
-
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     const checkContactEmailExists = contacts.filter((contact) =>
-    //         contact.email === email && contact.id !== currentContact.id
-    //             ? contact
-    //             : null
-    //     );
-    //     const checkContactPhoneExists = contacts.filter((contact) =>
-    //         contact.phone === phone && contact.id !== currentContact.id
-    //             ? contact
-    //             : null
-    //     );
-
-    //     if (!email || !name || !phone) {
-    //         return toast.warning("Please fill in all fields!!");
-    //     }
-    //     if (checkContactEmailExists.length > 0) {
-    //         return toast.error("This email already exists!!");
-    //     }
-    //     if (checkContactPhoneExists.length > 0) {
-    //         return toast.error("This phone number already exists!!");
-    //     }
-
-    //     const data = {
-    //         id: currentContact.id,
-    //         email,
-    //         name,
-    //         phone,
-    //     };
-
-    //     updateContact(data);
-    //     toast.success("Contact updated successfully!!");
-    //     history.push("/");
-
     return (
         <div className="container">
         <div className="row d-flex flex-column">

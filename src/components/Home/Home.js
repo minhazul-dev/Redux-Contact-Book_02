@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect, useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { toast } from 'react-toastify';
+
 
 const Home = ({ contacts, deleteContact }) => {
 
