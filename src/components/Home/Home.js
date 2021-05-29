@@ -9,6 +9,7 @@ const Home = ({ contacts, deleteContact }) => {
 
         <div className="container">
             <h3 className="mt-5 text-center">Welcome to our Contact Book</h3>
+            <h3 className="mt-5 text-center">Welcome to our Contact Book</h3>
             <div className="row">
                 <div className="col-md-4">
                     <Link to="/add" className="btn btn-outline-dark my-5 ml-auto ">
