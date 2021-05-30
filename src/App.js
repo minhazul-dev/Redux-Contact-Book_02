@@ -14,19 +14,24 @@ import Edit from './components/Edit/Edit';
 function App() {
   return (
 
-    <Router>
+<Router>
       <div>
-        <ToastContainer />
-        <Navbar />
+        <ToastContainer/>
+        <Navbar/>
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
         <Switch>
+        <Route path="/home">
+          <Home/>
+          </Route>
           <Route exact path="/">
-            <Home />
+          <Home/>
           </Route>
           <Route path="/add">
-            <Add />
+           <Add/>
           </Route>
           <Route path="/edit/:id">
-            <Edit />
+            <Edit/>
           </Route>
         </Switch>
       </div>

@@ -2,6 +2,9 @@ const initialState = [
     { id: 0, name: "Test 01", email: "email@email.com", phone: 1234567890 },
 
     { id: 1, name: "Test 02", email: "test@test.com", phone: 4567891230 },
+    { id: 2, name: "Test 03", email: "zanika@gmail.com", phone: 4567891230 },
+    { id: 3, name: "Test 04", email: "test@test.com", phone: 4567891230 },
+    { id: 4, name: "Test 06", email: "test@test.com", phone: 4567891230 },
   ];
 
   export const contactReducer = (state = initialState, action) => {
@@ -32,3 +35,14 @@ const initialState = [
   };
 
 
+//  contactReducer = (state = initialState, action) => {
+//       switch(action.type) {
+//           case "ADD_CONTACT":
+//               state=[...state,action.payload];
+//               return state;
+//           default:
+//               return state;
+//       }
+//   }
+
+//   export default contactReducer;
