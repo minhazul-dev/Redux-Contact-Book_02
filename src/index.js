@@ -16,9 +16,8 @@ import { contactReducer } from './redux/reducers/contactReducer';
 
 const store = createStore(contactReducer, composeWithDevTools())
 
-ReactDOM.render(
-
-  <Provider store={store}>
+ReactDOM.render( 
+<Provider store={store}>
     <App />
   </Provider>
   ,

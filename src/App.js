@@ -18,8 +18,6 @@ function App() {
       <div>
         <ToastContainer/>
         <Navbar/>
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
           <Route exact path="/">
           <Home/>
