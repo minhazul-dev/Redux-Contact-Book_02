@@ -1,12 +1,13 @@
-.home{
+ /* .home{
     background-color: rgba(0, 0, 139, 0.212);
     width: 100%;
     
-}
+    
+}  */
 
 .head{
     border-bottom: 1px solid blue;
-    color: red;
+    color: goldenrod;
     font-weight: 800;
     text-transform: uppercase;
 }
