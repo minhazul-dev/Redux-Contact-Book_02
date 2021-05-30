@@ -2,20 +2,17 @@ import React from 'react';
 import { connect, useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
-
+import image from '../../images/open-book.png';
+import './Home.css';
 const Home = ({ contacts, deleteContact }) => {
 
     return (
 
-        <div className="container">
-            <h3 className="mt-5 text-center">Welcome to our Contact Book</h3>
+        <div className="container home">
+            <h3 className="mt-5 text-center head">Welcome to our Contact Book </h3>
             <div className="row">
-                <div className="col-md-4">
-                    <Link to="/add" className="btn btn-outline-dark my-5 ml-auto ">
-                        Add Contact
-                         </Link>
-                </div>
-                <div className="col-md-8 mt-5">
+                
+                <div className="col-md-12 mt-5">
                     <table className="table table-hover">
                         <thead className="table-header">
                             <tr>
@@ -44,7 +41,7 @@ const Home = ({ contacts, deleteContact }) => {
                                             <button
                                                 type="button"
                                                 onClick={() => deleteContact(contact.id)}
-                                                className="btn btn-sm btn-danger"
+                                                className="button1 "
                                             >
                                                 Delete
                                          </button>

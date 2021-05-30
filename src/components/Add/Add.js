@@ -45,7 +45,7 @@ const Add = ({ contacts, addContact }) => {
     return (
 
         <div className="container-fluid">
-        <h1 className="text-center text-dark py-3 display-2">Add Information</h1>
+        <h3 className="mt-5 text-center head">Add Contact </h3>
         <div className="row">
           <div className="col-md-6 p-5 mx-auto shadow">
             <form onSubmit={handleSubmit}>
@@ -78,7 +78,7 @@ const Add = ({ contacts, addContact }) => {
               </div>
               <div className="form-group">
                 <input
-                  className="btn btn-block btn-dark"
+                  className="btn btn-block btn-primary"
                   type="submit"
                   value="Add Student"
                 />

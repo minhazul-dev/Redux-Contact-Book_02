@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../../images/open-book.png';
 import {
  
   Link
@@ -18,11 +19,11 @@ const Navbar = () => {
               </li>
               
               <li className="nav-item">
-                <a className="nav-link active" to="/" tabIndex={-1} aria-disabled="true">Home</a>
+                <Link className="nav-link active" to="/home" tabIndex={-1} aria-disabled="true">Home</Link>
               </li>
             </ul>
             <form className="d-flex">
-              <h1 className="text-white">Contact Book</h1>
+              <h1 className="text-white"><img style={{width: "40px"}} src={image} alt="" />Contact Book</h1>
             </form>
           </div>
         </div>

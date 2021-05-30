@@ -145,7 +145,7 @@ const Edit = ({ contacts, updateContact }) => {
                   </button>
                   <button
                     type="button"
-                    className="btn btn-danger"
+                    className="button1"
                     onClick={() => history.push("/")}
                   >
                     cancel
