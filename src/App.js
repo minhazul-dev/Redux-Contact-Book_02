@@ -14,19 +14,19 @@ import Edit from './components/Edit/Edit';
 function App() {
   return (
 
-<Router>
+    <Router>
       <div>
-        <ToastContainer/>
-        <Navbar/>
+        <ToastContainer />
+        <Navbar />
         <Switch>
           <Route exact path="/">
-          <Home/>
+            <Home />
           </Route>
           <Route path="/add">
-           <Add/>
+            <Add />
           </Route>
           <Route path="/edit/:id">
-            <Edit/>
+            <Edit />
           </Route>
         </Switch>
       </div>
