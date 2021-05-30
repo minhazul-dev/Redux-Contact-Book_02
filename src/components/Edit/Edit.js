@@ -104,7 +104,7 @@ const Edit = ({ contacts, updateContact }) => {
     //     history.push("/");
 
     return (
-        <div className="container">
+        <div className="container-fluid home">
         <div className="row d-flex flex-column">
           <button
             className="btn btn-dark ml-auto my-5"

@@ -44,7 +44,7 @@ const Add = ({ contacts, addContact }) => {
    
     return (
 
-        <div className="container-fluid">
+        <div className="container-fluid home">
         <h3 className="mt-5 text-center head">Add Contact </h3>
         <div className="row">
           <div className="col-md-6 p-5 mx-auto shadow">
